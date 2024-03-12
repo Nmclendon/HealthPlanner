@@ -327,14 +327,15 @@ This line mounts the directory /opt/stacks from the host machine to the director
       - DOCKGE_STACKS_DIR=/opt/stacks
 
 ```
+This environment variable tells Dockge the location of the stacks directory within the container.
+
+For advanced configuration options and further customization, you can explore Dockge's documentation or adjust the docker-compose.yml file as needed.
+
 
 ## ExerciseDiary - docker-compose.yml
 
 **Project to be continued here**
 
-This environment variable tells Dockge the location of the stacks directory within the container.
-
-For advanced configuration options and further customization, you can explore Dockge's documentation or adjust the docker-compose.yml file as needed.
 
 # Reference material:
 
