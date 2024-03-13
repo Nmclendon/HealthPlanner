@@ -4,7 +4,7 @@ This project is for hosting my own recipe manager and fitness journal on my Rasp
 I plan to use these to help me adjust my diet and track my exercise habits in order to help me shift to a healthier lifestyle.
 
 This project was developed and deployed on a Raspberry Pi, all the commands below should be entered in the terminal window unless otherwise specified.
-**Mealie will not run on a 64bit operating system. If your pi is unable to run a 64bit OS you can also follow this guide using a 64bit version of Ubuntu on a physical or virtual machine, the steps should mostly be the same.**
+**Mealie will not run on a 32bit operating system. If your pi is unable to run a 64bit OS you can also follow this guide using a 64bit version of Ubuntu on a physical or virtual machine, the steps should mostly be the same.**
 
 ## Setup
 Ensure you have wget, SQLite, Docker and Docker Compose installed on your system before proceeding with this project. If you haven't installed them yet, you should be able to get all four with apt:
