@@ -1,0 +1,22 @@
+version: "3.8"
+services:
+  nginx:
+    image: nginx:latest
+    restart: unless-stopped
+    ports:
+      - 8080:80
+  exercisediary:
+    restart: unless-stopped
+    image: aceberg/exercisediary
+    ports:
+      - 8851:8851
+    volumes:
+      - ~/.dockerdata/ExerciseDiary:/data/ExerciseDiary
+    environment:
+      - "TZ: America/Los_Angeles"
+      - 'HOST: "0.0.0.0"'
+      - 'PORT: "8851"'
+      - 'THEME: "grass" '
+      - 'COLOR: "light" '
+    networks: []
+networks: {}
